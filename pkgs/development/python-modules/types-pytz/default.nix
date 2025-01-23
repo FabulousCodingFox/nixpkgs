@@ -11,7 +11,8 @@ buildPythonPackage rec {
   pyproject = true;
 
   src = fetchPypi {
-    inherit pname version;
+    pname = "types_pytz";
+    inherit version;
     hash = "sha256-BtfN6WE+n3UEdmoFVKJww2lDS1DgCXWzpKD27tDywak=";
   };
 
