@@ -4,6 +4,7 @@
   adal,
   buildPythonPackage,
   certifi,
+  durationpy,
   fetchFromGitHub,
   google-auth,
   mock,
@@ -39,6 +40,7 @@ buildPythonPackage rec {
 
   dependencies = [
     certifi
+    durationpy
     google-auth
     python-dateutil
     pyyaml
